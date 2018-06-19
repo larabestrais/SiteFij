@@ -1,0 +1,113 @@
+
+/*
+    font-family: 'Muli', sans-serif;
+	
+	font-family: 'Abril Fatface', cursive;
+
+    font-family: 'Gugi', cursive;
+*/
+body{
+	background-color:#ffffff;
+	
+}
+#conteneur{
+	background-color:#ffffff;
+	width:1200px;
+	margin:auto;
+	font-family:'Muli', sans-serif;
+}
+header{
+	background-image:url("../image/designC.jpg");
+	width:100%;
+	height:200px;
+}
+h1{
+	font-family: 'Abril Fatface', cursive;
+	padding-left:300px;
+	padding-top:100px;
+	color:white;
+	text-shadow: 2px 2px 1px #a4845e;
+}
+h1>a{
+	color:blue;
+	text-shadow: 2px 2px 1px #a4845e;
+}
+
+h1>a:hover{
+	color:blue;
+	text-shadow: 2px 2px 1px #a4845e;
+}
+nav{
+	text-align: center; 
+}
+ul{
+	list-style-type: none;
+	border-bottom-style:solid;
+	border-bottom-width:0.5px;
+	padding-bottom:10px;
+}
+li{
+	display:inline-block;
+	width:300px;
+}
+a{
+	color:#000000;
+	text-decoration:none;
+}
+a:hover{
+	color:#0000FF;
+}
+footer{
+	text-align:center;
+	border-top-style:solid;
+	border-top-width:0.5px;
+}
+section{
+	padding:50px;
+}
+h2{
+	font-family: 'Gugi', cursive;
+	text-align: center;
+}
+p{
+	text-align:justify;
+	/*border: solid 1px;*/
+}
+figure{
+	border: solid 1px;
+	display: inline-block;
+	width : 280px;
+	height: 250px;
+	vertical-align:top;
+}
+img{
+	border: solid 1px;
+	border-radius: 10px;
+	width:260px;
+	height:auto;
+	margin: 10px;
+}
+figcaption{
+	padding-left:10px;
+	padding-right:10px;
+}
+.petit{
+	font-size:0.6em;
+}
+table{
+	width : 80%;
+	margin: auto;
+}
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+td{
+	padding: 10px;
+	/*text-align: center;*/
+	vertical-align: top;
+}
+.center{
+	text-align: center;
+	color: red;
+}
